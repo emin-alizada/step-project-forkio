@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    &__nav{
+        display: flex;
+        background-color: #27262a;
+        &-button{
+            width: 119px;
+            background: #8d81ac;
+            color: white;
+            height: 35px;
+        }
+        &-burger{
+            width: 26px;
+            height: 21px;
+            display: flex;
+            flex-direction: column;
+            justify-items: space-between;
+            &-firstLine{
+                width: 24px;
+                height: 2px;
+                background-color: white;
+            }
+            &-line{
+                width: 26px;
+                height: 2px;
+                background-color: white;
+            }
+        }
+    }
+}
