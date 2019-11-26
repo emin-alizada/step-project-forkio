@@ -7,7 +7,7 @@ const gulp = require('gulp'),
     clean = require('gulp-clean'),
     autoprefixer = require('gulp-autoprefixer'),
     imageMin = require("gulp-imagemin"),
-    browserSync = require("browser-sync")
+    browserSync = require("browser-sync");
 
 const path = {
     src: {
