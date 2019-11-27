@@ -1,13 +1,12 @@
 @import "reset";
+
 /** if you have separate file for variables and mixins, or fonts - import it here **/
 
 @import "header";
+
 /** MEDIA **/
+
 @import "media/all-media";
-body{
-  background-color: black;
+body {
+    min-width: 320px;
 }
-
-/** MEDIA **/
-@import "media/all-media";
-
