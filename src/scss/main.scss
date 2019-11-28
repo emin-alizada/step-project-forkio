@@ -2,6 +2,13 @@
 @import "fonts";
 /** if you have separate file for variables and mixins, or fonts - import it here **/
 
+body {
+    min-width: 320px;
+}
+
+@import "header";
 @import "rev-editor";
+
 /** MEDIA **/
+
 @import "media/all-media";
