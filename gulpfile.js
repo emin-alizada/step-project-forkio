@@ -14,15 +14,24 @@ const path = {
         scss: "src/scss/*.scss",
         js: "src/js/*.js",
         img: "src/img/**/*",
-
+        fonts: "src/fonts/**/*"
     },
     dist: {
         self: "dist/",
         css: "dist/css/",
         js: "dist/js/",
-        img: "dist/img/"
+        img: "dist/img/",
+        fonts: "dist/fonts/"
+    },
+    html: {
+        html: './*.html'
     }
 };
+
+const fontsBuilder = () => (
+    gulp.src(path.src.fonts)
+        .pipe(gulp.dest(path.dist.fonts))
+);
 
 const imageBuilder = () => (
     gulp.src(path.src.img)
@@ -61,6 +70,8 @@ const watcher = () => {
             }
         }
     );
+
+    gulp.watch(path.html.html).on('change', browserSync.reload);
     gulp.watch(path.src.scss, scssBuilder).on('change', browserSync.reload);
     gulp.watch(path.src.js, jsBuilder).on('change', browserSync.reload);
     gulp.watch(path.src.img, imageBuilder).on('change', browserSync.reload);
@@ -71,6 +82,7 @@ gulp.task('build', gulp.series(
     scssBuilder,
     jsBuilder,
     imageBuilder,
+    fontsBuilder,
 ));
 
 gulp.task('dev', gulp.series(
