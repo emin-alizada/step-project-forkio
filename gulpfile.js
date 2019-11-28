@@ -76,3 +76,11 @@ gulp.task('build', gulp.series(
 gulp.task('dev', gulp.series(
     watcher
 ));
+
+gulp.task('default',gulp.series(
+    cleanDist,
+    scssBuilder,
+    jsBuilder,
+    imageBuilder,
+    watcher
+))

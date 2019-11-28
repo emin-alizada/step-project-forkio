@@ -1,0 +1,129 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    &__nav {
+        display: flex;
+        background-color: #27262a;
+        flex-direction: column;
+        padding: 30px 15px;
+        &-row {
+            display: flex;
+            justify-content: space-between;
+            &-menu {
+                display: flex;
+                ul {
+                    display: flex;
+                    align-items: center;
+                    color: #8d81ac;
+                    li {
+                        margin-right: 3rem;
+                    }
+                }
+            }
+        }
+        &-menu {
+            margin-top: 1.6rem;
+            color: #8d81ac;
+            display: flex;
+            font-size: 1.25rem;
+            justify-content: center;
+            li {
+                margin-left: 4%;
+            }
+        }
+        &-logo {
+            display: flex;
+            align-items: center;
+            &-name {
+                color: #8d81ac;
+                font-size: 1.5rem;
+                margin-left: 1rem
+            }
+        }
+        &-button {
+            width: 119px;
+            background: #8d81ac;
+            color: #fff;
+            text-align: center;
+            line-height: 34px;
+            border-radius: 50px;
+            font-size: 14pt;
+            font-family: 'Montserrat', sans-serif;
+            height: 35px;
+            font-weight: 600;
+        }
+        &-burger {
+            width: 26px;
+            height: 21px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            &-firstLine {
+                width: 20px;
+                height: 3px;
+                border-radius: 100px;
+                background-color: #fff;
+                align-self: flex-end;
+            }
+            &-line {
+                width: 26px;
+                height: 3px;
+                border-radius: 50px;
+                background-color: #fff;
+            }
+        }
+    }
+    &__content {
+        background: url(../img/header-bg.png);
+        display: flex;
+        justify-content: center;
+        background-position: center -7rem;
+        &-text {
+            font-family: 'montserrat', sans-serif;
+            text-align: center;
+            width: 17rem;
+            text-align: center;
+            &-title {
+                color: white;
+                font-size: 3.1rem;
+                margin-top: 40px;
+            }
+            &-subtitle {
+                font-size: 1rem;
+                color: #7a7096;
+                line-height: 2;
+                margin: 20px 0;
+            }
+            &-small {
+                font-size: 0.9rem;
+                color: #6a727a;
+                margin-bottom: 420px;
+            }
+        }
+    }
+    &__download {
+        display: flex;
+        position: absolute;
+        font-family: 'montserrat', sans-serif;
+        bottom: -56px;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        &-button {
+            background-color: #8d81ac;
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: 700;
+            border-radius: 2rem;
+            margin-bottom: 1rem;
+            border: none;
+            padding: 0.8rem 2rem;
+        }
+        &-description {
+            color: #a5acb3;
+            font-size: 0.9rem;
+        }
+    }
+}
