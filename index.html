@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css"
+          integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/style.min.css">
 
@@ -13,51 +15,96 @@
 
 <body>
 
-    <div class="header">
-        <div class="header__nav">
-            <div class="header__nav-row">
-                <div class="header__nav-logo"><img src="src/img/logo.png" alt=""><span class="header__nav-logo-name">FORKIO</span></div>
-                <div class="header__nav-row-menu">
-                    <ul>
-                        <li>Overview</li>
-                        <li>About Fork</li>
-                        <li>Buying Options</li>
-                        <li>Support</li>
-                    </ul>
-                    <div class="header__nav-button">Buy now </div>
-                </div>
-                <div class="header__nav-burger">
-                    <div class="header__nav-burger-firstLine"></div>
-                    <div class="header__nav-burger-line"></div>
-                    <div class="header__nav-burger-line"></div>
-                </div>
+
+<div class="header">
+    <div class="header__nav">
+        <div class="header__nav-row">
+            <div class="header__nav-logo"><img src="src/img/logo.png" alt=""><span class="header__nav-logo-name">FORKIO</span></div>
+            <div class="header__nav-row-menu">
+                <ul>
+                    <li>Overview</li>
+                    <li>About Fork</li>
+                    <li>Buying Options</li>
+                    <li>Support</li>
+                </ul>
+                <div class="header__nav-button">Buy now </div>
             </div>
-            <ul class="header__nav-menu">
-                <li>Overview</li>
-                <li>About Fork</li>
-                <li>Buying Options</li>
-                <li>Support</li>
-            </ul>
-        </div>
-        <div class="header__content">
-            <div class="header__content-text">
-                <h1 class="header__content-text-title">Fork App</h1>
-                <p class="header__content-text-subtitle">A Real Gamechanger In The World Of Web-Development</p>
-                <p class="header__content-text-small">v. 2.8 For Mac and Windows</p>
+            <div class="header__nav-burger">
+                <div class="header__nav-burger-firstLine"></div>
+                <div class="header__nav-burger-line"></div>
+                <div class="header__nav-burger-line"></div>
             </div>
         </div>
-        <div class="header__download">
-            <button class="header__download-button">Download For Free Now</button>
-            <div class="header__download-description">Unlimited 30-Days Trial Period</div>
+        <ul class="header__nav-menu">
+            <li>Overview</li>
+            <li>About Fork</li>
+            <li>Buying Options</li>
+            <li>Support</li>
+        </ul>
+    </div>
+    <div class="header__content">
+        <div class="header__content-text">
+            <h1 class="header__content-text-title">Fork App</h1>
+            <p class="header__content-text-subtitle">A Real Gamechanger In The World Of Web-Development</p>
+            <p class="header__content-text-small">v. 2.8 For Mac and Windows</p>
         </div>
     </div>
-    <div class="rev-editor"></div>
+    <div class="header__download">
+        <button class="header__download-button">Download For Free Now</button>
+        <div class="header__download-description">Unlimited 30-Days Trial Period</div>
+    </div>
+</div>
 
-    <div class="feature"></div>
 
-    <div class="pricing"></div>
+<div class="rev-editor">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <h5 class="text-center rev-editor__text">Unlimited 30-Days Trial Period</h5>
+        </div>
+        <div class="row justify-content-center">
+            <h2 class="text-center text-uppercase rev-editor__header">Revolutionary editor</h2>
+        </div>
+        <div class="row justify-content-center">
+            <p class="text-center rev-editor__paragraph">Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui
+                laoreet vulputate
+            </p>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-5 col-md-2 d-flex justify-content-center rev-editor__buttons"><img
+                src="dist/img/rev-editor/watch.png" alt="">
+        </div>
+        <div class="col-5 col-md-2 d-flex justify-content-center rev-editor__buttons"><img
+                src="dist/img/rev-editor/star.png" alt="">
+        </div>
+        <div class="col-5 col-md-2 d-flex justify-content-center rev-editor__buttons"><img
+                src="dist/img/rev-editor/fork.png" alt="">
+        </div>
+    </div>
+</div>
 
-    <script src="/dist/js/script.min.js"></script>
+
+<div class="feature"></div>
+
+<div class="pricing">
+    <!--    div-->
+    <!--    <h3 class="pricing__header">Fork Subscription-->
+    <!--        Pricing</h3>-->
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js"
+        integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P"
+        crossorigin="anonymous"></script>
+<script src="/dist/js/script.min.js"></script>
+
+
 </body>
 
 </html>
