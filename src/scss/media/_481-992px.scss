@@ -40,11 +40,11 @@
             }
         }
         &__foot {
-            display: block;
             font-size: 0.95rem;
             width: 45rem;
             &-text {
                 padding-bottom: 0.8rem;
+                display: block;
             }
         }
     }
