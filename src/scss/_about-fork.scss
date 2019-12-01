@@ -1,0 +1,52 @@
+.aboutFork {
+    background: url("../img/testmonials.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: #4a3b4e;
+    &__header {
+        font-family: 'montserrat', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 4rem;
+        font-size: 2.5rem;
+        color: white;
+    }
+    &__content {
+        flex-wrap: wrap;
+        font-family: 'Lato';
+        padding-top: 1rem;
+        &-item {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding-top: 2.5rem;
+            &-img {
+                margin-bottom: 3rem;
+                &-W {
+                    margin-bottom: 2rem;
+                    border-radius: 50%;
+                }
+            }
+            &-text {
+                font-size: 1rem;
+                line-height: 1.5rem;
+                font-style: italic;
+            }
+        }
+    }
+    &__foot {
+        margin: 60px auto 0;
+        color: #918094;
+        padding: 0 15px;
+        font-size: 0.8rem;
+        text-align: center;
+        line-height: 1.5;
+        &-text {
+            display: none;
+        }
+    }
+    hr {
+        border-top: 1px solid #635766;
+    }
+}
