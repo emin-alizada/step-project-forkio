@@ -6,4 +6,21 @@
             }
         }
     }
+    .container {
+        max-width: 90%;
+    }
+    .aboutFork {
+        &__content {
+            &-item {
+                max-width: 30%;
+            }
+        }
+        &__foot {
+            font-size: 0.8rem;
+            width: 50rem;
+        }
+    }
+    hr {
+        width: 95%;
+    }
 }
