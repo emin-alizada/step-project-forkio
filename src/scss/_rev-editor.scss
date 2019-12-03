@@ -18,6 +18,13 @@
         margin-bottom: 2rem;
     }
     &__buttons {
+        border: 1px solid #d5d5d5;
         margin-bottom: 1.25rem;
+        border-radius: 3px;
+    }
+
+    &__svg-and-name{
+        background-color: #f8f8f8;
+        border-right: 1px solid #d5d5d5;
     }
 }
