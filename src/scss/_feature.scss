@@ -1,10 +1,11 @@
 .feature{
   background: #f4f4f4;
+  margin: 5rem 0 0 0;
 
   &__container{
     min-width: 320px;
     max-width: 1200px;
-    margin: 5rem 0 0 0;
+    margin: 0 auto;
   }
 
   &__header{
@@ -13,9 +14,22 @@
     color: #8d81ac;
     margin: 2rem 3rem;
     font-weight: bold;
+    width: 100%;
+  }
+
+  &__header--mobile{
+    display: none;
   }
 
   &__icons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__icon--width{
+    width: 111px;
     display: flex;
     justify-content: center;
     align-items: center;

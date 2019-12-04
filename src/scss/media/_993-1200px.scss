@@ -1,4 +1,4 @@
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 992px) {
     .header {
         &__nav {
             padding: 1.5rem 5rem;
@@ -10,6 +10,23 @@
     .container {
         max-width: 1200px;
     }
+
+    .feature{
+        padding:3rem 0;
+        .feature__header--desktop{
+            display: none;
+        }
+        .feature__icons-container{
+            flex-direction: row;
+            text-align: left;
+            justify-content: flex-start;
+        }
+        .feature__text{
+            max-width: 63%;
+        }
+
+    }
+
     .aboutFork {
         &__content {
             &-item {

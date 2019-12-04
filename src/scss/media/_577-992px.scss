@@ -1,4 +1,4 @@
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 577px) {
     .header {
         &__nav {
             &-burger {
@@ -31,6 +31,29 @@
     .container {
         max-width: 100%;
     }
+
+    .feature{
+        .feature__header{
+            margin-bottom: 4rem;
+        }
+        .feature__icons-container{
+            flex-direction: row;
+            text-align: left;
+            justify-content: flex-start;
+        }
+        .feature__icon--width{
+            margin-right: 1.5rem;
+            margin-left: 2rem;
+        }
+        .feature__text{
+            max-width: 70%;
+        }
+        .feature__text-secondary{
+            padding: 0;
+        }
+
+    }
+
     .aboutFork {
         &__header {
             font-size: 2.5rem;
@@ -51,7 +74,7 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
     .header {
         &__nav {
             &-logo {
