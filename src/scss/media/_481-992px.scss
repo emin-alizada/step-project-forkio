@@ -1,81 +1,87 @@
-@media screen and (min-width: 481px) {
-    .header {
-        &__nav {
-            &-burger {
-                display: none;
+        @media screen and (min-width: 481px) {
+            .header {
+                &__nav {
+                    &-burger {
+                        display: none;
+                    }
+                    &-menu {
+                        display: flex !important;
+                        position: static;
+                        padding: 0;
+                        background-color: transparent;
+                        color: #8d81ac;
+                        flex-direction: row;
+                        width: auto;
+                        font-size: 1.2rem;
+                        justify-content: center;
+                        li {
+                            padding: 0;
+                            border: none;
+                            margin-left: 4%;
+                            &:hover {
+                                color: white;
+                            }
+                            &:hover::after {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+                &__content {
+                    background-position: center -10.5rem;
+                    &-text {
+                        width: auto;
+                    }
+                }
             }
-            &-menu {
-                display: flex !important;
-                position: static;
-                padding: 0;
-                background-color: transparent;
-                color: #8d81ac;
-                flex-direction: row;
-                width: auto;
-                font-size: 1.2rem;
-                justify-content: center;
-                li {
-                    padding: 0;
-                    border: none;
-                    margin-left: 4%;
+            .container {
+                max-width: 100%;
+            }
+            .aboutFork {
+                &__header {
+                    font-size: 2.5rem;
+                }
+                &__content {
+                    &-item {
+                        max-width: 46%;
+                    }
+                }
+                &__foot {
+                    font-size: 0.95rem;
+                    width: 95%;
+                    &-text {
+                        padding-bottom: 0.8rem;
+                        display: block;
+                    }
                 }
             }
         }
-        &__content {
-            background-position: center -10.5rem;
-            &-text {
-                width: auto;
-            }
-        }
-    }
-    .container {
-        max-width: 100%;
-    }
-    .aboutFork {
-        &__header {
-            font-size: 2.5rem;
-        }
-        &__content {
-            &-item {
-                max-width: 46%;
-            }
-        }
-        &__foot {
-            font-size: 0.95rem;
-            width: 95%;
-            &-text {
-                padding-bottom: 0.8rem;
-                display: block;
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .header {
-        &__nav {
-            &-logo {
-                &-name {
-                    display: none;
-                }
-            }
-            &-menu {
-                display: none;
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .header {
-        &__nav {
-            &-row {
-                &-menu {
-                    &-links {
+        
+        @media screen and (max-width: 480px) {
+            .header {
+                &__nav {
+                    &-logo {
+                        &-name {
+                            display: none;
+                        }
+                    }
+                    &-menu {
                         display: none;
                     }
                 }
             }
         }
-    }
-}
+        
+        @media screen and (max-width: 992px) {
+            .header {
+                &__nav {
+                    &-row {
+                        &-menu {
+                            &-links {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
