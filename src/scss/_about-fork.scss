@@ -1,8 +1,9 @@
 .aboutFork {
     background: url("../img/testmonials.png");
-    background-repeat: no-repeat;
-    background-position: top;
-    background-color: #4a3b4e;
+    //background-repeat: no-repeat;
+    //background-position: top;
+    //background-color: #4a3b4e;
+    background-size: cover;
     &__header {
         font-family: 'montserrat', sans-serif;
         font-weight: 700;
