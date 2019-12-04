@@ -1,0 +1,46 @@
+.feature{
+  background: #f4f4f4;
+
+  &__container{
+    min-width: 320px;
+    max-width: 1200px;
+    margin: 5rem 0 0 0;
+  }
+
+  &__header{
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    color: #8d81ac;
+    margin: 2rem 3rem;
+    font-weight: bold;
+  }
+
+  &__icons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__icon{
+    margin-bottom: 1.875rem;
+  }
+
+  &__text{
+    max-width: 400px;
+  }
+
+  &__text-header{
+    color: #323232;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 1.3rem;
+  }
+
+  &__text-secondary{
+    color: #848e97;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    padding: 0 1.8rem;
+    margin-bottom: 2.3rem;
+  }
+}

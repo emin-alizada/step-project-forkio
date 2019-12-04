@@ -21,10 +21,20 @@
         border: 1px solid #d5d5d5;
         margin-bottom: 1.25rem;
         border-radius: 3px;
+        margin-right: 1rem;
     }
 
     &__svg-and-name{
-        background-color: #f8f8f8;
+        background-color: #eeeeef;
         border-right: 1px solid #d5d5d5;
+        padding: 5px;
+    }
+
+    &__button-name{
+        margin-left: 5px;
+    }
+
+    &__views{
+        padding: 5px;
     }
 }
