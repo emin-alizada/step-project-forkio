@@ -72,7 +72,16 @@
             }
         }
     }
+
+    .pricing{
+        .pricing__header{
+            margin-top: 5rem;
+            margin-bottom: 3rem;
+            font-size: 2.6rem;
+        }
+    }
 }
+
 
 @media screen and (max-width: 576px) {
     .header {

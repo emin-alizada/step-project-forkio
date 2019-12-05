@@ -1,0 +1,90 @@
+.pricing{
+  //background-color: #4b3b4e;
+  margin-top: 4rem;
+  &__container{
+    max-width: 1200px;
+  }
+
+  &__header{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  .row{
+    margin: 0;
+  }
+
+  &__card{
+    width: 257px;
+    height: 457px;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    background-color: #5f5161;
+    position: relative;
+  }
+  &__card-header{
+    background-color: #685b6a;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5em;
+  }
+
+  &__card-header-text{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+  }
+
+  &__card-title{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &__card-text{
+    color: #8f8691;
+    font-size: 0.7rem;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    margin-bottom: 4.5rem;
+  }
+
+  &__card-text::after{
+    content: '';
+    width: 60px;
+    display: inline-block;
+    position: absolute;
+    border-bottom: 5px solid #8d81ac;
+    left: 76px;
+    top: 44px;
+  }
+
+  &__card-text-secondary{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    color: white;
+    line-height: 20px;
+  }
+
+  &__card-button{
+    position: absolute;
+    bottom: 2.3rem;
+    left: 3.9rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7rem;
+    color: white;
+    background-color: #776b79;
+    padding: 1rem 2.3rem;
+    border-radius: 2.5rem;
+  }
+  &__card--active{
+    transform: scale(1.12, 1.22);
+    background-color: #413344;
+    margin-bottom: 2rem;
+    .pricing__card-header{
+      background-color: #3a2d3d;
+    }
+  }
+}
