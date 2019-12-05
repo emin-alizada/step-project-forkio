@@ -77,12 +77,14 @@
                 background: url(../img/logo.png);
                 width: 2.6rem;
                 height: 2.5rem;
+                background-size: cover;
             }
             &:hover &-name {
                 color: white;
             }
             &:hover &-img {
                 background: url(../img/logo-hover.png);
+                background-size: cover;
             }
         }
         &-button {
