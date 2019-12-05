@@ -14,10 +14,17 @@
                 width: auto;
                 font-size: 1.2rem;
                 justify-content: center;
+
                 li {
                     padding: 0;
                     border: none;
                     margin-left: 4%;
+                    &:hover {
+                        color: white;
+                    }
+                    &:hover::after {
+                        display: none;
+                    }
                 }
             }
         }
